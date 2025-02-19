@@ -12,10 +12,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 8%;
 }
 
 #CentralContents {  
   background-color: #f5f8fc;
   color: #333840;
   padding: 20px;
+  font-size: 2rem;
 }
