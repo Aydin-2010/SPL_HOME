@@ -11,7 +11,7 @@ html , body {
 body {
   display: flex;
   align-items: center;
-  justify-content: ccenter;
+  justify-content: center;
 }
 
 #CentralContents {  
