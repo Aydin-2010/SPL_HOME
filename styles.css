@@ -23,17 +23,20 @@ body {
 }
 
 #CentralContents p {
-    font-size: 2rem; /* Default size */
+    font-size: 2rem;
 }
 
-@media (max-width: 768px) { /* Tablets */
+/*Tablet*/
+@media (max-width: 768px) {
     #CentralContents p {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 }
 
-@media (max-width: 480px) { /* Mobile */
+
+/* Mobile */
+@media (max-width: 480px) {
     #CentralContents p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
