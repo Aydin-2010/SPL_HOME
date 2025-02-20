@@ -16,7 +16,7 @@ body {
 }
 
 #CentralContents { 
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1) , -2px -2px 5px rgba(0, 0, 0, 0.1) , 2px -2px 5px rgba(0, 0, 0, 0.1) , -2px 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 12px 5px rgba(0, 0, 0, 0.1) , -2px -12px 5px rgba(0, 0, 0, 0.1) , 2px -12px 5px rgba(0, 0, 0, 0.1) , -2px 12px 5px rgba(0, 0, 0, 0.1);
   background-color: #f5f8fc;
   color: #333840;
   padding: 20px;
