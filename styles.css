@@ -8,18 +8,20 @@ html , body {
   min-height: 100%;
 }
 
-body {
+#CentralContentsAligner {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8%;
+  padding: 4%;
+  margin-top: 8%;
+  width: 100%;
 }
 
 #CentralContents { 
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1) , -2px -2px 5px rgba(0, 0, 0, 0.1) , 2px -2px 5px rgba(0, 0, 0, 0.1) , -2px 2px 5px rgba(0, 0, 0, 0.1);
   background-color: #f5f8fc;
   color: #333840;
-  padding: 20px;
+  padding: 4%;
 }
 
 #NavBar {
