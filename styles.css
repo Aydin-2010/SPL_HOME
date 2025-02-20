@@ -22,47 +22,43 @@ body {
   padding: 20px;
 }
 
-#CentralContents p {  
-  font-size: 2rem;
-}
-
 /* xs */
-@media (max-width: 475px) { 
+@media (min-width: 475px) { 
   #CentralContents p {
     font-size: 1rem;
   }
 }
 
 /* sm */
-@media (max-width: 640px) {
+@media (min-width: 640px) {
   #CentralContents p {
     font-size: 1.2rem;
   }
 }
 
 /* md */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   #CentralContents p {
     font-size: 1.4rem;
   }
 }
 
 /* lg */
-@media (max-width: 1024px) { 
+@media (min-width: 1024px) { 
   #CentralContents p {
     font-size: 1.6rem;
   }
 }
 
 /* xl */
-@media (max-width: 1280px) {
+@media (min-width: 1280px) {
   #CentralContents p {
     font-size: 2rem;
   }
 }
 
 /* 2xl */
-@media (max-width: 1536px) {  
+@media (min-width: 1536px) {  
   #CentralContents p { 
     font-size: 2.5rem;
   }
