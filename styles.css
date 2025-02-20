@@ -20,5 +20,8 @@ body {
   background-color: #f5f8fc;
   color: #333840;
   padding: 20px;
+}
+
+#CentralContents p {   
   font-size: 2rem;
 }
