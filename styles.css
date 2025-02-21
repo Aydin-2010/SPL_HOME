@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #f5f8fc;
 }
 
 html , body {
@@ -34,7 +35,7 @@ html , body {
 }
 
 #NavBarOptions {
-  background-color: #f5f8fc;
+  background-color: #060606;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
