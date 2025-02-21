@@ -29,6 +29,10 @@ html , body {
   font-family: Quicksand;
 }
 
+#CentralContents h1 {
+  font-family: "Open Sans";
+}
+
 #NavBar {
   top: 0;
   width: 100%;
