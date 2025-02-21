@@ -8,6 +8,7 @@
 html , body {
   min-height: 100%;
   background-color: #0D0D0D;
+  font-size: 18px;
 }
 
 #CentralContentsAligner {
@@ -86,10 +87,6 @@ html , body {
 
 /* sm */
 @media (min-width: 640px) {
-  html {
-    font-size: 18px;
-  }
-
   #CentralContents p {
     font-size: 1.2rem;
   }
