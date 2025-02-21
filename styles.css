@@ -27,6 +27,7 @@ html , body {
 #NavBar {
   top: 0;
   width: 100%;
+  background-color: ##f5f8fc;
 }
 
 #NavBarOptions {
