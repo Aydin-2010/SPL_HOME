@@ -45,13 +45,14 @@ html , body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2%;
 }
 
 #NavOptions {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  padding: 1%;
+  padding: 2%;
   gap: 4vw;
 }
 
