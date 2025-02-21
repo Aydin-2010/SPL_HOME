@@ -35,6 +35,10 @@ html , body {
   text-align: center;
 }
 
+#CentralContents p a {
+  text-decoration: underline;
+}
+
 #NavBar {
   top: 0;
   width: 100%;
