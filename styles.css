@@ -27,11 +27,10 @@ html , body {
 #NavBar {
   top: 0;
   width: 100%;
-  background-color: ##f5f8fc;
 }
 
 #NavBarOptions {
-  background-color: ##f5f8fc;
+  background-color: #f5f8fc;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
