@@ -34,6 +34,7 @@ html , body {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+  padding: 1%;
 }
 
 #SaturnLogo {
@@ -45,12 +46,20 @@ html , body {
   #CentralContents p {
     font-size: 0.8rem;
   }
+
+  #NavBarOptions li {
+    font-size: 0.7rem;
+  }
 }
 
 /* sm */
 @media (min-width: 640px) {
   #CentralContents p {
     font-size: 1.2rem;
+  }
+  
+  #NavBarOptions li {
+    font-size: 1.1rem;
   }
 }
 
@@ -59,12 +68,20 @@ html , body {
   #CentralContents p {
     font-size: 1.4rem;
   }
+
+  #NavBarOptions li {
+    font-size: 1.3rem;
+  }
 }
 
 /* lg */
 @media (min-width: 1024px) { 
   #CentralContents p {
     font-size: 1.6rem;
+  }
+    
+  #NavBarOptions li {
+    font-size: 1.5rem;
   }
 }
 
@@ -73,11 +90,19 @@ html , body {
   #CentralContents p {
     font-size: 2rem;
   }
+
+  #NavBarOptions li {
+    font-size: 1.9rem;
+  }
 }
 
 /* 2xl */
 @media (min-width: 1536px) {  
   #CentralContents p { 
     font-size: 2.5rem;
+  }
+
+  #NavBarOptions li {
+    font-size: 2.4rem;
   }
 }
