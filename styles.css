@@ -54,14 +54,11 @@ html , body {
   padding: 1%;
 }
 
-#NavOptions {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
+#NavBarOptions {
   gap: 2vw;
 }
 
-#NavOptions li {
+#NavBarOptions li {
   font-size: 1.5vw;
   font-family: Lato;
 }
