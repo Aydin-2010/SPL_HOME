@@ -31,14 +31,16 @@ html , body {
 #NavBar {
   top: 0;
   width: 100%;
-}
-
-#NavBarOptions {
   background-color: #060606;
-  list-style-type: none;
   display: flex;
   justify-content: space-between;
   padding: 1%;
+}
+
+.NavBarUls {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 #SaturnLogo {
