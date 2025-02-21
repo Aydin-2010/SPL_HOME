@@ -46,6 +46,7 @@ html , body {
   display: flex;
   justify-content: space-between;
   padding: 1%;
+  gap: 4vw;
 }
 
 /*#NavOptions li {
