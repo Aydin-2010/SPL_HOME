@@ -37,6 +37,12 @@ html , body {
   padding: 1%;
 }
 
+.NavBarLi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .NavBarUls {
   list-style-type: none;
   display: flex;
