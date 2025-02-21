@@ -52,24 +52,17 @@ html , body {
   justify-content: space-between;
 }
 
+.NavBarUls li {
+  font-size: 1.5vw;
+  font-family: Lato;
+}
+
 #SaturnLogo {
   width: 5.3vw;
 }
 
-#NavUl {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1%;
-}
-
 #NavBarOptions {
   gap: 2vw;
-}
-
-#NavBarOptions li {
-  font-size: 1.5vw;
-  font-family: Lato;
 }
 
 /* xs */
