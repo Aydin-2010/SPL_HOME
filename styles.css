@@ -7,7 +7,7 @@
 
 html , body {
   min-height: 100%;
-  background-color: #1f2125;
+  background-color: #171717; /*#1f2125;*/
 }
 
 #CentralContentsAligner {
@@ -22,7 +22,6 @@ html , body {
 #CentralContents { 
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1) , -2px -2px 5px rgba(0, 0, 0, 0.1) , 2px -2px 5px rgba(0, 0, 0, 0.1) , -2px 2px 5px rgba(0, 0, 0, 0.1);
   background-color: #121212;
-  color: #333840;
   padding: 4%;
 }
 
