@@ -37,6 +37,10 @@ html , body {
   padding: 1%;
 }
 
+#SaturnLogo {
+  width: 7.6vw;
+}
+
 #NavUl {
   list-style-type: none;
   display: flex;
@@ -44,8 +48,8 @@ html , body {
   padding: 1%;
 }
 
-#SaturnLogo {
-  width: 7.6vw;
+#NavUl li{
+  
 }
 
 /* xs */
