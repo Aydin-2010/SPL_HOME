@@ -24,6 +24,10 @@ html , body {
   padding: 4%;
 }
 
+#CentralContents p {
+  font-family: Quicksand;
+}
+
 #NavBar {
   top: 0;
   width: 100%;
