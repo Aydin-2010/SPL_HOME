@@ -61,6 +61,13 @@ html , body {
   width: 5.3vw;
 }
 
+#Title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 #NavBarOptions {
   gap: 2vw;
 }
