@@ -41,6 +41,12 @@ html , body {
   width: 7.6vw;
 }
 
+#NavUl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #NavOptions {
   list-style-type: none;
   display: flex;
