@@ -31,6 +31,8 @@ html , body {
 
 #CentralContents h1 {
   font-family: "Open Sans";
+  padding: 2vw;
+  text-align: center;
 }
 
 #NavBar {
