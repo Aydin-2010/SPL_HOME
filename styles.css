@@ -31,10 +31,13 @@ html , body {
 #NavBar {
   top: 0;
   width: 100%;
-  background-color: #060606;
+}
+
+#NavBarUl {   
   display: flex;
   justify-content: space-between;
   padding: 1%;
+  background-color: #060606;
 }
 
 .NavBarLi {
