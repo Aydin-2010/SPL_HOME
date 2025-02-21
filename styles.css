@@ -49,7 +49,7 @@ html , body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2%;
+  padding: 1%;
 }
 
 #NavOptions {
@@ -60,9 +60,9 @@ html , body {
   gap: 4vw;
 }
 
-/*#NavOptions li {
-  font-size: ;
-}*/
+#NavOptions li {
+  font-family: Lato;
+}
 
 /* xs */
 @media (min-width: 475px) { 
