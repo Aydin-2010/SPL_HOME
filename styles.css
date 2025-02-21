@@ -50,9 +50,10 @@ html , body {
   justify-content: center;
   align-items: center;
   padding: 1%;
+  font-size: 1.5vw;
 }
 
-.NavOptions {
+#NavOptions {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -60,9 +61,9 @@ html , body {
   gap: 4vw;
 }
 
-.NavOptions li {
-  font-family: Lato;
+#NavOptions li {
   font-size: 1.5vw;
+  font-family: Lato;
 }
 
 /* xs */
