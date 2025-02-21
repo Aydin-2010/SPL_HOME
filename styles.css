@@ -100,6 +100,10 @@ html , body {
   #CentralContents p {
     font-size: 1.5rem;
   }
+
+  #CentralContents h1 {
+    font-size: 2rem;
+  }
 }
 
 /* md */
@@ -107,12 +111,20 @@ html , body {
   #CentralContents p {
     font-size: 1.6rem;
   }
+
+  #CentralContents h1 {
+    
+  }
 }
 
 /* lg */
 @media (min-width: 1024px) {
   #CentralContents p {
     font-size: 1.8rem;
+  }
+
+  #CentralContents h1 {
+    
   }
 }
 
@@ -131,5 +143,9 @@ html , body {
 @media (min-width: 1536px) {  
   #CentralContents p { 
     font-size: 2.8rem;
+  }
+
+  #CentralContents h1 {
+    
   }
 }
