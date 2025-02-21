@@ -41,16 +41,16 @@ html , body {
   width: 7.6vw;
 }
 
-#NavUl {
+#NavOptions {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
   padding: 1%;
 }
 
-#NavUl li{
-  
-}
+/*#NavOptions li {
+  font-size: ;
+}*/
 
 /* xs */
 @media (min-width: 475px) { 
