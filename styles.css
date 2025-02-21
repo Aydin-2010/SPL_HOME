@@ -59,14 +59,8 @@ html , body {
   gap: 2vw;
 }
 
-#AboutOption {
-  font-size: 1.5vw;
-  font-family: Lato;
-}
-
-#UpdatesOption {
-  font-size: 1.5vw;
-  font-family: Lato;
+#NavOptions li {
+  font-size: 15px;
 }
 
 /* xs */
