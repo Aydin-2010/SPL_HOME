@@ -52,7 +52,7 @@ html , body {
   padding: 1%;
 }
 
-#NavOptions {
+.NavOptions {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -60,7 +60,7 @@ html , body {
   gap: 4vw;
 }
 
-#NavOptions li {
+.NavOptions li {
   font-family: Lato;
   font-size: 1.5vw;
 }
