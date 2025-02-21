@@ -26,7 +26,6 @@ html , body {
 
 #CentralContents p {
   font-family: Quicksand;
-  font-size: 2.5vw;
 }
 
 #NavBar {
@@ -65,35 +64,35 @@ html , body {
   font-family: Lato;
 }
 
-/* xs 
+/* xs */
 @media (min-width: 475px) { 
   #CentralContents p {
     font-size: 0.8rem;
   }
 }
 
-/* sm 
+/* sm */
 @media (min-width: 640px) {
   #CentralContents p {
     font-size: 1.2rem;
   }
 }
 
-/* md 
+/* md */
 @media (min-width: 768px) {
   #CentralContents p {
     font-size: 1.4rem;
   }
 }
 
-/* lg 
+/* lg */
 @media (min-width: 1024px) { 
   #CentralContents p {
     font-size: 1.6rem;
   }
 }
 
-/* xl 
+/* xl */
 @media (min-width: 1280px) {
   #CentralContents p {
     font-size: 2rem;
