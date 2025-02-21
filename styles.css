@@ -76,7 +76,7 @@ html , body {
 /* xs */
 @media (min-width: 475px) { 
   #CentralContents p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 
