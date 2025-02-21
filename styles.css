@@ -57,11 +57,14 @@ html , body {
   display: flex;
   justify-content: space-between;
   gap: 2vw;
+}
+
+#AboutOption {
   font-size: 1.5vw;
   font-family: Lato;
 }
 
-.NavOptionsli {
+#UpdatesOption {
   font-size: 1.5vw;
   font-family: Lato;
 }
