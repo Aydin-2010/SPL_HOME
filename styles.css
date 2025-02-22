@@ -36,7 +36,7 @@ html , body {
   text-align: center;
 }
 
-#CentralContents p a {
+.links {
   text-decoration: underline;
 }
 
@@ -83,6 +83,13 @@ html , body {
 
 #NavBarOptions {
   gap: 2vw;
+}
+
+#TryContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
 }
 
 /* xs */
