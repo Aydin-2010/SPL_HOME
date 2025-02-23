@@ -93,10 +93,11 @@ html , body {
 }
 
 #TryContainer button {
+  margin: 0;
   background-color: #1f1f1f;
   border-radius: 100px;
   border: 10px #1f1f1f solid;
-  padding: 2vw;
+  padding: 0.5vw 2vw;
 }
 
 #TryArrow {
