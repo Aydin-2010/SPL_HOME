@@ -92,6 +92,14 @@ html , body {
   text-align: center;
 }
 
+#TryContainer button {
+  background-color: #1f1f1f
+}
+
+#TryArrow {
+  width: 5.4vw;
+}
+
 /* xs */
 @media (min-width: 300px) and (max-width: 639px) {
   html {
