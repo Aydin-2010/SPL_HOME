@@ -90,6 +90,7 @@ html , body {
   align-items: center;
   justify-content: space-between;
   text-align: center;
+  font-family: Lato;
 }
 
 #TryContainer button {
@@ -101,7 +102,7 @@ html , body {
 }
 
 #TryArrow {
-  width: 5.4vw;
+  width: 5vw;
 }
 
 /* xs */
