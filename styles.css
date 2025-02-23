@@ -93,7 +93,9 @@ html , body {
 }
 
 #TryContainer button {
-  background-color: #1f1f1f
+  background-color: #1f1f1f;
+  border-radius: 100px;
+  border-color: #1f1f1f;
 }
 
 #TryArrow {
