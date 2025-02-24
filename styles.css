@@ -92,7 +92,7 @@ html , body {
 }
 
 #TryContainer * {
-  font-family: Lato;
+  font-family: "Patrick Hand";
 }
 
 #TryContainer button {
@@ -116,7 +116,7 @@ html , body {
 
 #TryArrow {
   width: 5vw;
-  padding-top: 8px;
+  padding-top: 0.6vw;
 }
 
 /* xs */
