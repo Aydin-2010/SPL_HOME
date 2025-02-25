@@ -138,7 +138,17 @@ html , body {
   }
 }
 
-/* sm */
+@media (min-width: 640px) {
+  #CentralContents p {
+    font-size: vw;
+  }
+
+  #CentralContents h1 {
+    font-size: vw;
+  }
+}
+
+/* sm *
 @media (min-width: 640px) {
   #CentralContents p {
     font-size: 1.5rem;
@@ -148,12 +158,12 @@ html , body {
     font-size: 2rem;
   }
 
-  /*#TryContainer button {
+  #TryContainer button {
     font-size: 1.7rem;
-  }*/
+  }
 }
 
-/* md */
+/* md *
 @media (min-width: 768px) {  
   #CentralContents p {
     font-size: 1.6rem;
@@ -163,12 +173,12 @@ html , body {
     font-size: 2.1rem;
   }
 
-  /*#TryContainer button {
+  #TryContainer button {
     font-size: 1.8rem;
-  }*/
+  }
 }
 
-/* lg */
+/* lg *
 @media (min-width: 1024px) {
   #CentralContents p {
     font-size: 1.8rem;
@@ -178,12 +188,12 @@ html , body {
     font-size: 2.3rem;
   }
 
-  /*#TryContainer button {
+  #TryContainer button {
     font-size: 2rem;
-  }*/
+  }
 }
 
-/* xl */
+/* xl *
 @media (min-width: 1280px) {
   #CentralContents p {
     font-size: 2rem;
@@ -193,12 +203,12 @@ html , body {
     font-size: 2.5rem;
   }
 
-  /*#TryContainer button {
+  #TryContainer button {
     font-size: 2.2rem;
-  }*/
+  }
 }
 
-/* 2xl */
+/* 2xl *
 @media (min-width: 1536px) {  
   #CentralContents p { 
     font-size: 2.8rem;
@@ -208,7 +218,7 @@ html , body {
     font-size: 3.3rem; 
   }
 
-  /*#TryContainer button {
+  #TryContainer button {
     font-size: 3rem;
-  }*/
-}
+  }
+}*/
