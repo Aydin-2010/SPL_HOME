@@ -140,11 +140,11 @@ html , body {
 
 @media (min-width: 640px) {
   #CentralContents p {
-    font-size: vw;
+    font-size: 2.4vw;
   }
 
   #CentralContents h1 {
-    font-size: vw;
+    font-size: 3.04vw;
   }
 }
 
