@@ -34,6 +34,7 @@ html , body {
   font-family: "Open Sans";
   padding: 2vw;
   text-align: center;
+  font-weight: normal;
 }
 
 .links {
@@ -130,7 +131,7 @@ html , body {
   }
 
   #CentralContents h1 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   #TryContainer button {
