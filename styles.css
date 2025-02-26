@@ -130,20 +130,13 @@ html , body {
     font-size: 1.1rem;
   }
 
-  /*#CentralContents h1 {
+  #CentralContents h1 {
     font-size: 1.5rem;
   }
 
-  #TryContainer button {
+  /*#TryContainer button {
     font-size: 1.3rem;
   }*/
-  #CentralContents p {
-    font-size: 2.4vw;
-  }
-
-  #CentralContents h1 {
-    font-size: 3vw;
-  }
 }
 
 @media (min-width: 640px) {
