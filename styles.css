@@ -137,6 +137,13 @@ html , body {
   #TryContainer button {
     font-size: 1.3rem;
   }*/
+  #CentralContents p {
+    font-size: 2.4vw;
+  }
+
+  #CentralContents h1 {
+    font-size: 3vw;
+  }
 }
 
 @media (min-width: 640px) {
