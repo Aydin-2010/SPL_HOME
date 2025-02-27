@@ -147,7 +147,9 @@ html , body {
   #CentralContents h1 {
     font-size: 3vw;
   }
+}
 
+@media (min-width: 962px) { 
   #SaturnLogo {
   width: 5.3vw;
   }
