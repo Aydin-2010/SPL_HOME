@@ -130,10 +130,6 @@ html , body {
     font-size: 1.5rem;
   }
 
-  #SaturnLogo {
-    width: 1.75rem;
-  }
-
   /*#TryContainer button {
     font-size: 1.3rem;
   }*/
@@ -145,6 +141,15 @@ html , body {
   }
   #SaturnLogo {
     width: 2.5rem;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 599px) {
+  html {
+    font-size: 20px;
+  }
+  #SaturnLogo {
+    width: 1.5rem;
   }
 }
 
