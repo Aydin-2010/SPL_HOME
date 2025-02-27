@@ -71,10 +71,6 @@ html , body {
   font-family: Lato;
 }
 
-/*#SaturnLogo {
-  width: 5.3vw;
-}*/
-
 #Title {
   display: flex;
   align-items: center;
@@ -150,6 +146,10 @@ html , body {
 
   #CentralContents h1 {
     font-size: 3vw;
+  }
+
+  #SaturnLogo {
+  width: 5.3vw;
   }
 }
 
