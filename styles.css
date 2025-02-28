@@ -71,11 +71,19 @@ html , body {
   font-size: 1.8vw;
 }
 
-#Title {
+.LangTitle {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#Title {
   font-size: 1.8vw;
+}
+
+#TitleXS {
+  display: none;
+  font-size: 0.75rem;
 }
 
 #NavBarOptions {
@@ -134,8 +142,12 @@ html , body {
     font-size: 1.25rem; 
   }*/
 
+  #TitleXS {
+    display: flex;
+  }
+
   #Title {
-    font-size: 0.75rem;
+    display: none;
   }
   
   #SaturnLogo {
