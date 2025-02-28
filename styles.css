@@ -115,6 +115,7 @@ html , body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-size: 2.7vw;
 }
 
 #TryArrow {
@@ -144,9 +145,9 @@ html , body {
     width: 2.5rem;
   } 
 
-  #TryContainer button div {
+  /*#TryContainer button div {
     font-size: 0.75rem;
-  }
+  }*/
 
   #TitleXS {
     font-size: 0.75rem;
