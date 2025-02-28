@@ -114,12 +114,12 @@ html , body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 15px; /*2.5vw;*/
+  font-size: 2.5vw;
 }
 
 #TryArrow {
   width: 5vw;
-  padding-top: 3px; /*0.6vw;*/
+  padding-top: 0.6vw;
 }
 
 /* xs */
