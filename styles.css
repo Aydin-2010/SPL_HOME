@@ -76,9 +76,9 @@ html , body {
   justify-content: center;
 }
 
-#Title {
+/*#Title {
   font-size: 1.8vw;
-}
+}*/
 
 #TitleXS {
   display: none;
@@ -142,7 +142,11 @@ html , body {
   
   #SaturnLogo {
     width: 2.5rem;
-  } 
+  }
+
+  #Title {
+    font-size: 0.75rem; 
+  }
 
   /*#TryContainer button div {
     font-size: 0.75rem;
