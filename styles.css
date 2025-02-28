@@ -141,14 +141,6 @@ html , body {
   /*.NavBarUls li {
     font-size: 1.25rem; 
   }*/
-
-  #TitleXS {
-    display: flex;
-  }
-
-  #Title {
-    display: none;
-  }
   
   #SaturnLogo {
     width: 2.5rem;
@@ -157,6 +149,16 @@ html , body {
   /*#TryContainer button {
     font-size: 1.3rem;
   }*/
+}
+
+@media (min-width: 300px) and (max-width: 450px){
+  #TitleXS {
+    display: flex;
+  }
+
+  #Title {
+    display: none;
+  }
 }
 
 @media (min-width: 958px) {
