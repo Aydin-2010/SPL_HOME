@@ -157,7 +157,7 @@ html , body {
   }*/
 }
 
-@media (min-width: 300px) and (max-width: 450px){
+@media (min-width: 300px) and (max-width: 480px){
   #TitleXS {
     display: flex;
   }
