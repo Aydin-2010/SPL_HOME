@@ -91,7 +91,7 @@ html , body {
 #TryContainer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 #TryContainer * {
@@ -114,7 +114,7 @@ html , body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 2.7vw;
+  font-size: 2.5vw;
 }
 
 #TryArrow {
