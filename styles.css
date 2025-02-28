@@ -68,7 +68,6 @@ html , body {
 
 .NavBarUls li {
   font-family: Lato;
-  font-size: 1.8vw;
 }
 
 .LangTitle {
@@ -137,9 +136,9 @@ html , body {
     font-size: 1.5rem;
   }
 
-  /*.NavBarUls li {
-    font-size: 1.25rem; 
-  }*/
+  .NavBarUls li {
+    font-size: 0.75rem; 
+  }
   
   #SaturnLogo {
     width: 2.5rem;
@@ -147,11 +146,11 @@ html , body {
 
   /*#TryContainer button div {
     font-size: 0.75rem;
-  }*/
+  }*
 
   #TitleXS {
     font-size: 0.75rem;
-  }
+  }*/
 }
 
 @media (min-width: 300px) and (max-width: 450px){
@@ -175,6 +174,10 @@ html , body {
   
   #SaturnLogo {
     width: 5.3vw;
+  }
+
+  .NavBarUls li {
+    font-size: 1.8vw; 
   }
 }
 
