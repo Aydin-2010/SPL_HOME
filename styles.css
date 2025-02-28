@@ -83,7 +83,6 @@ html , body {
 
 #TitleXS {
   display: none;
-  font-size: 0.75rem;
 }
 
 #NavBarOptions {
@@ -149,6 +148,11 @@ html , body {
   /*#TryContainer button {
     font-size: 1.3rem;
   }*/
+
+  #TitleXS {
+    font-size: 0.75rem;
+  }
+  
 }
 
 @media (min-width: 300px) and (max-width: 450px){
