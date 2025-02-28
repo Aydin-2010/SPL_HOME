@@ -148,6 +148,10 @@ html , body {
     font-size: 0.75rem; 
   }
 
+  #TryContainer button div {
+    font-size: 0.75rem;
+  }
+
   /*#TryContainer button div {
     font-size: 0.75rem;
   }*
