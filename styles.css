@@ -67,7 +67,6 @@ html , body {
 }
 
 .NavBarUls li {
-  font-size: 1.8vw;
   font-family: Lato;
 }
 
@@ -129,10 +128,14 @@ html , body {
   #CentralContents h1 {
     font-size: 1.5rem;
   }
+
+  .NavBarUls li {
+    font-size: 2rem; 
+  }
   
   #SaturnLogo {
     width: 2.5rem;
-  }
+  } 
 
   /*#TryContainer button {
     font-size: 1.3rem;
