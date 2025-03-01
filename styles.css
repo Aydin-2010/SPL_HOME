@@ -152,6 +152,10 @@ html , body {
     font-size: 0.75rem;
   }
 
+  #TryArrow {
+    width: 1.5rem;
+  }
+
   /*#TryContainer button div {
     font-size: 0.75rem;
   }*
