@@ -6,14 +6,14 @@
 }
 
 html , body {
-  min-height: 100vh;
+  min-height: 100%;
   font-size: 16px;
 }
 
 #background_div {
   position: absolute;
   z-index: -100;
-  min-height: 100%;
+  /*min-height: 100%;*/
 }
 
 #background {
