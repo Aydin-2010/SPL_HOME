@@ -31,7 +31,7 @@ html , body {
 }
 
 #CentralContents { 
-  background-color: #06060650;
+  background-color: /*#06060650*/ #ffffff50;
   border-radius: 5vw;
   padding: 4%;
 }
@@ -60,7 +60,7 @@ html , body {
   display: flex;
   justify-content: space-between;
   padding: 1%;
-  background-color: #06060650;
+  background-color: /*#06060650*/ ##ffffff50;
   border-radius: 2vw;
 }
 
@@ -114,9 +114,9 @@ html , body {
   align-items: center;
   justify-content: space-between;
   margin: 0;
-  background-color: #1f1f1fDD;
+  background-color: #ffffffdd;
   border-radius: 100px;
-  border: 10px #1f1f1fDD solid;
+  border: 10px #ffffffdd solid;
   padding: 0.5vw 1.5vw;
 }
 
