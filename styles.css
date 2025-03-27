@@ -15,7 +15,7 @@ html , body {
   z-index: -10;
   background: url("imgs/background_image.jpeg") no-repeat center center fixed;
   background-size: cover;
-  max-width: 100%;
+  width: 100%;
   min-height: 100%;
 }
 
