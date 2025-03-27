@@ -32,6 +32,7 @@ html , body {
 
 #CentralContents { 
   background-color: #06060650;
+  backdrop-filter: blur(30px);
   border-radius: 5vw;
   padding: 4%;
 }
@@ -60,8 +61,9 @@ html , body {
   display: flex;
   justify-content: space-between;
   padding: 1%;
-  /*background-color: #06060650;*/
-  border-radius: 2vw;
+  background-color: #06060650;
+  backdrop-filter: blur(30px);
+  /*border-radius: 2vw;*/
 }
 
 .NavBarLi {
