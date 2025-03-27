@@ -31,7 +31,7 @@ html , body {
 }
 
 #CentralContents { 
-  background-color: #06060644;
+  background-color: #06060640;
   padding: 4%;
 }
 
@@ -59,7 +59,7 @@ html , body {
   display: flex;
   justify-content: space-between;
   padding: 1%;
-  background-color: #06060644;
+  background-color: #06060640;
 }
 
 .NavBarLi {
