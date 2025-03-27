@@ -10,13 +10,11 @@ html , body {
   font-size: 16px;
 }
 
-#background {
+#background_div {
+  min-height: 100%;
+  max-width: 100%;
   position: absolute;
   z-index: -10;
-  background: url("imgs/background_image.jpeg") no-repeat center center fixed;
-  background-size: cover;
-  width: 100%;
-  min-height: 100%;
 }
 
 #CentralContentsAligner {
