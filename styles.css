@@ -31,7 +31,7 @@ html , body {
 }
 
 #CentralContents { 
-  background-color: /*#06060650*/ #ffffff50;
+  background-color: #06060650;
   border-radius: 5vw;
   padding: 4%;
 }
@@ -60,7 +60,7 @@ html , body {
   display: flex;
   justify-content: space-between;
   padding: 1%;
-  background-color: /*#06060650*/ #ffffff50;
+  /*background-color: #06060650;*/
   border-radius: 2vw;
 }
 
