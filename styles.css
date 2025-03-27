@@ -11,10 +11,13 @@ html , body {
 }
 
 #background_div {
+  position: absolute;
+  z-index: -100;
+}
+
+#background {
   min-height: 100%;
   max-width: 100%;
-  position: absolute;
-  z-index: -10;
 }
 
 #CentralContentsAligner {
