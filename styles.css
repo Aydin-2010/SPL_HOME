@@ -31,7 +31,7 @@ html , body {
 }
 
 #CentralContents { 
-  background-color: #06060630;
+  background-color: #06060650;
   border-radius: 5vw;
   padding: 4%;
 }
@@ -60,8 +60,8 @@ html , body {
   display: flex;
   justify-content: space-between;
   padding: 1%;
-  background-color: #06060630;
-  border-radius: 5vw;
+  background-color: #06060650;
+  border-radius: 2vw;
 }
 
 .NavBarLi {
@@ -114,7 +114,7 @@ html , body {
   align-items: center;
   justify-content: space-between;
   margin: 0;
-  background-color: #1f1f1f;
+  background-color: #1f1f1faa;
   border-radius: 100px;
   border: 10px #1f1f1f solid;
   padding: 0.5vw 1.5vw;
