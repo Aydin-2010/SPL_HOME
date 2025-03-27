@@ -61,7 +61,7 @@ html , body {
   display: flex;
   justify-content: space-between;
   padding: 1%;
-  background-color: #06060650;
+  background-color: #06060633;
   backdrop-filter: blur(30px);
   /*border-radius: 2vw;*/
 }
