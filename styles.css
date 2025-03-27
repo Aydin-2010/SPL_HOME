@@ -14,10 +14,11 @@ html , body {
   position: absolute;
   z-index: -100;
   min-height: 100%;
+  max-width: 100%;
 }
 
 #background {
-  height: 100%;
+  min-height: 100%;
   max-width: 100%;
 }
 
