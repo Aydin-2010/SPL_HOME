@@ -13,7 +13,7 @@ html , body {
 #background {
   position: absolute;
   z-index: -10;
-  background: url("/imgs/background_image.jpeg") no-repeat center center fixed;
+  background: url("imgs/background_image.jpeg") no-repeat center center fixed;
   background-size: cover;
 }
 
