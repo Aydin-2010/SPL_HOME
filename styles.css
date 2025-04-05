@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #f5f8fc;
+}
+
+html , body {
+  min-height: 100%;
+  font-size: 16px;
+}
+
+body {
+    background-image: url('imgs/background_img.png');
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: repeat;
+}
+
+/*#background_div {
+  position: absolute;
+  z-index: -100;
+}
+
+#background {
+  max-width: 100%;
+  min-height: 100vh;
+}*/
+
+#CentralContentsAligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4%;
+  margin-top: 7%;
+  width: 100%;
+}
+
+#CentralContents { 
+  background-color: #06060633;
+  backdrop-filter: blur(10px);
+  border-radius: 5vw;
+  padding: 4%;
+}
+
+#CentralContents p {
+  font-family: Quicksand;
+  line-height: 1.5;
+}
+
+#CentralContents h1 {
+  font-family: Quicksand;
+  padding: 2vw;
+  text-align: center;
+}
+
+.links {
+  text-decoration: underline;
+}
+
+#NavBar {
+  top: 0;
+  width: 100%;
+}
+
+#NavBarUl {   
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  background-color: #06060633;
+  backdrop-filter: blur(10px);
+  /*border-radius: 2vw;*/
+}
+
+.NavBarLi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavBarUls {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 1vw;
+}
+
+.NavBarUls li {
+  font-family: Lato;
+}
+
+.LangTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*#Title {
+  font-size: 1.8vw;
+}*/
+
+#TitleXS {
+  display: none;
+}
+
+#NavBarOptions {
+  gap: 2vw;
+}
+
+#TryContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#TryContainer * {
+  font-family: "Patrick Hand";
+}
+
+#TryContainer button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  background-color: #1f1f1fDD;
+  border-radius: 100px;
+  border: 10px solid #1f1f1fDD;
+  padding: 0.5vw 1.5vw;
+}
+
+#TryContainer button div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+#TryArrow {
+  width: 5vw;
+  /*padding-top: 0.6vw;*/
+}
+
+/* xs */
+@media (min-width: 300px) and (max-width: 959px) {
+  html {
+    font-size: 20px;
+  }
+
+  #CentralContents p {
+    font-size: 1.1rem;
+  }
+
+  #CentralContents h1 {
+    font-size: 1.5rem;
+  }
+
+  .NavBarUls li {
+    font-size: 0.75rem; 
+  }
+  
+  #SaturnLogo {
+    width: 2.5rem;
+  }
+
+  #Title {
+    font-size: 0.75rem; 
+  }
+
+  #TryContainer button div {
+    font-size: 0.75rem;
+  }
+
+  #TryArrow {
+    width: 1.5rem;
+  }
+
+  /*#TryContainer button div {
+    font-size: 0.75rem;
+  }*
+
+  #TitleXS {
+    font-size: 0.75rem;
+  }*/
+}
+
+@media (min-width: 300px) and (max-width: 480px){
+  #TitleXS {
+    display: flex;
+  }
+
+  #Title {
+    display: none;
+  }
+}
+
+@media (min-width: 960px) {
+  #CentralContents p {
+    font-size: 2.4vw;
+  }
+
+  #CentralContents h1 {
+    font-size: 3vw;
+  }  
+  
+  #SaturnLogo {
+    width: 5.3vw;
+  }
+
+  .NavBarUls li {
+    font-size: 1.8vw; 
+  }
+}
+
+/* sm *
+@media (min-width: 640px) {
+  #CentralContents p {
+    font-size: 1.5rem;
+  }
+
+  #CentralContents h1 {
+    font-size: 2rem;
+  }
+
+  #TryContainer button {
+    font-size: 1.7rem;
+  }
+}
+
+/* md *
+@media (min-width: 768px) {  
+  #CentralContents p {
+    font-size: 1.6rem;
+  }
+
+  #CentralContents h1 {
+    font-size: 2.1rem;
+  }
+
+  #TryContainer button {
+    font-size: 1.8rem;
+  }
+}
+
+/* lg *
+@media (min-width: 1024px) {
+  #CentralContents p {
+    font-size: 1.8rem;
+  }
+
+  #CentralContents h1 {
+    font-size: 2.3rem;
+  }
+
+  #TryContainer button {
+    font-size: 2rem;
+  }
+}
+
+/* xl *
+@media (min-width: 1280px) {
+  #CentralContents p {
+    font-size: 2rem;
+  }
+
+  #CentralContents h1 {
+    font-size: 2.5rem;
+  }
+
+  #TryContainer button {
+    font-size: 2.2rem;
+  }
+}
+
+/* 2xl *
+@media (min-width: 1536px) {  
+  #CentralContents p { 
+    font-size: 2.8rem;
+  }
+
+  #CentralContents h1 {
+    font-size: 3.3rem; 
+  }
+
+  #TryContainer button {
+    font-size: 3rem;
+  }
+}*/
